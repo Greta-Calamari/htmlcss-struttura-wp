@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+
+}
+/* default */
+
+
+.big-container{
+    width: 40%;
+    margin: 0 auto;
+     
+   
+}
+
+
+
+header{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    
+}
+
+.logo img{
+    width:200px;
+   display: inline-block;
+    position: absolute;
+    left: 10px;
+
+    
+    
+}
+
+.nav{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    
+    
+    
+
+}
+
+.nav-text{
+    font-size: 30px;
+    margin: 0 5px;
+    color: lightgray;
+
+}
+
+figure{
+    position: relative;
+
+}
+
+.figure img {
+    width: 100%;
+    height: 700px;
+    border-radius: 10px;
+    
+    
+    
+}
+
+.description-image{
+    width: 500px;
+    position: absolute;
+    bottom:200px ;
+    left: 50px;
+    
+    
+
+
+}
+
+figure span, h1{
+    color: white;
+}
+
+
+
+
+/* fine primo container */
+
+/* inizio secondo container */
+
+.container-2{
+    margin-top: 50px;
+    position: relative;
+
+    
+    
+
+}
+
+.box-title{
+   margin: 10px 25px; 
+    
+    
+}
+
+.title-table{
+    font-size: 40px;
+    color: black;
+}
+
+.box-title{
+    color: lightgrey;
+    font-size: 20px;
+}
+
+
+
+
+.card2{
+   
+    width: 500px;
+    height:500px ;
+    margin: 10px 5px;
+  }  
+
+    
+     
+   
+    
+    
+
+
+
+
+.card{
+    
+    width: 228px;
+    height: 500px;
+    margin: 10px 0px;
+    
+    
+    
+    
+    
+}
+
+.left{
+    float: left;
+}
+
+
+.img1{
+    width:225px;
+    border-radius: 20px;
+}
+
+.img2{
+    width: 470px;
+    height: 225px;
+    border-radius: 20px;
+    
+    
+}
+
+.img3{
+    width:225px;
+    height: 225px;
+    border-radius: 20px;
+
+}
+
+.ending{
+    
+    text-align: center;
+
+}
+
+footer{
+    padding: 30px;
+   
+  
+}
+
+.heart{
+    color: red;
+}
+    
