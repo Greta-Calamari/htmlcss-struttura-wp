@@ -133,6 +133,7 @@ figure span, h1{
    
     width: 500px;
     height:500px;
+    margin-right: 20px;
     
     
 
@@ -143,7 +144,8 @@ figure span, h1{
       
       width: 228px;
       height: 500px;
-      margin: 10px 0px;
+      margin-top: 15px;
+      
 }
       
       
@@ -159,11 +161,12 @@ figure span, h1{
 .img1{
     width:225px;
     border-radius: 20px;
+    margin-top: 50px;
 }
 
 .img2{
-    width: 550px;
-    height: 300px;
+    width: 500px;
+    height: 280px;
     border-radius: 20px;
     
     
@@ -175,7 +178,8 @@ figure span, h1{
     width:300px;
     height: 225px;
     border-radius: 20px;
-
+    margin-top: 40px;
+    
 }
     
 
@@ -193,7 +197,7 @@ figure span, h1{
 }
 
 footer{
-    padding: 30px;
+    padding: 100px;
    
   
 }
