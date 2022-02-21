@@ -11,6 +11,10 @@
     clear: both;
 
 }
+
+body{
+    font-family: 'Heebo', sans-serif;
+}
 /* default */
 
 
@@ -23,46 +27,45 @@
 
 
 
-header{
-    width: 100%;
-    height: 200px;
-    position: relative;
-    
-}
 
 .logo img{
-    width:200px;
+    height: 70px;
+    padding-right: 30px;
+    border-right: 1px solid #d7d7d7;
+    padding-bottom: ;
+}
+
+
+nav{
+    padding: 40px 0;
+    
+}
+
+nav ul li{
+    list-style-type: none;
     display: inline-block;
-    position: absolute;
-    left: 10px;
-
-    
+    text-transform: uppercase;
+    padding-right: 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+nav a{
+    text-decoration: none;
+    color: #858585;
     
 }
+ nav a:hover{
+     color: blue;
+ }
 
-.nav{
-    position: absolute;
-    bottom: 0;
-    left: 10px;
-    
-    
-    
+ /* immagine hero */
 
-}
-
-.nav-text{
-    font-size: 30px;
-    margin: 0 5px;
-    color: lightgray;
-
-}
-
-figure{
+ figure{
     position: relative;
 
 }
 
-.figure img {
+.hero img {
     width: 100%;
     height: 700px;
     border-radius: 10px;
@@ -77,6 +80,7 @@ figure{
     position: absolute;
     bottom:200px ;
     left: 50px;
+    max-width: 500px;
     
     
 
@@ -112,7 +116,7 @@ figure span, h1{
 .box-title{
     color: lightgrey;
     font-size: 20px;
-    margin: 10px 25px; 
+    margin: 10px 0px; 
 }
 
 /* fine contenitore 2 */
@@ -220,7 +224,7 @@ figure span, h1{
 }
 
 footer{
-    padding: 100px;
+    padding: 300px;
    
   
 }
